@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MST task1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header" id="sticky-header">
+        <div class="header__container">
+            <a href="/" class="header__logo">MST HOMES</a>
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#features" class="nav__link">
+                            NEWSLETTER
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            ABOUT US
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            BOOKINGS
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header__menu-btn" aria-label="Toggle menu">
+                <span class="header__menu-icon"></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Innovative Urban Living Spaces</h1>
+                    <p class="hero__subtitle">Transforming cityscapes with sustainable architecture</p>
+                    <ul class="hero__stats stats-list">
+                        <li class="stats-list__item">
+                            <div class="stats-list__content">
+                                <span class="stats-list__value">Up to $10,000</span>
+                                <span class="stats-list__description">average energy savings per year</span>
+                            </div>
+                        </li>
+                        <li class="stats-list__item">
+                            <div class="stats-list__content">
+                                <span class="stats-list__value">30%</span>
+                                <span class="stats-list__description">reduced carbon footprint</span>
+                            </div>
+                        </li>
+                        <li class="stats-list__item">
+                            <div class="stats-list__content">
+                                <span class="stats-list__value">Up to 17%</span>
+                                <span class="stats-list__description">increased property value</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="button button--primary">EXPLORE NOW</button>
+                </div>
+                <div class="hero__image">
+                    <img src="./images/building-main.png" alt="Modern sustainable office building" class="hero__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="features__container">
+                <div class="features__image">
+                    <img src="./images/building-left.png" alt="Eco-friendly architecture" class="features__image">
+                </div>
+                <div class="features__content">
+                    <ul class="features__list">
+                        <li class="features__item">Smart energy management systems with AI-powered optimization</li>
+                        <li class="features__item">Sustainable materials and green building certifications</li>
+                        <li class="features__item">Integrated renewable energy solutions with solar panels and energy storage systems for maximum efficiency and environmental impact</li>
+                        <li class="features__item">Biophilic design elements promoting wellness and productivity</li>
+                    </ul>
+                    <button class="button button--primary">LEARN MORE</button>
+                </div>
+                <div class="features__image">
+                    <img src="./images/building-right.png" alt="Modern sustainable design" class="features__image">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact__container">
+                <div class="contact__form-wrapper">
+                    <h2 class="contact__title">Schedule a Consultation</h2>
+                    <form class="contact__form form" id="contact-form">
+                        <div class="form__group">
+                            <input type="text" class="form__input" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" class="form__input" name="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="form__group">
+                            <label class="form__checkbox">
+                                <input type="checkbox" name="privacy_policy" required>
+                                <span class="form__checkbox-text">I accept Privacy policy</span>
+                            </label>
+                        </div>
+                        <button type="submit" class="button button--dark">GET IN TOUCH</button>
+                    </form>
+                </div>
+                <div class="contact__image">
+                    <img src="./images/building-bg.png" alt="Modern building background" class="contact__img-bg">
+                    <img src="./images/businesswoman.png" alt="Professional architect consultant" class="contact__img-overlay">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <nav class="nav-links">
+        <div class="nav-links__container">
+            <ul class="nav-links__list">
+                <li class="nav-links__item">
+                    <a href="#" class="nav-links__link">NEWSLETTER</a>
+                </li>
+                <li class="nav-links__item">
+                    <a href="#" class="nav-links__link">ABOUT US</a>
+                </li>
+                <li class="nav-links__item">
+                    <a href="#" class="nav-links__link">BOOKINGS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <a href="/" class="footer__logo">MST HOMES</a>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link" aria-label="Instagram">
+                        <span class="footer__social-icon footer__social-icon--instagram"></span>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="TikTok">
+                        <span class="footer__social-icon footer__social-icon--tiktok"></span>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                        <span class="footer__social-icon footer__social-icon--linkedin"></span>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Facebook">
+                        <span class="footer__social-icon footer__social-icon--facebook"></span>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Telegram">
+                        <span class="footer__social-icon footer__social-icon--telegram"></span>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="YouTube">
+                        <span class="footer__social-icon footer__social-icon--youtube"></span>
+                    </a>
+                </div>
+                <button class="button button--light">CONTACT US</button>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-left">
+                    <span class="footer__copyright">© 2024 MST HOMES</span>
+                </div>
+                <div class="footer__bottom-middle">
+                    <a href="#" class="footer__policy-link">Privacy policy</a>
+                </div>
+                <div class="footer__bottom-right">
+                    <a href="#" class="footer__terms-link">Terms of use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
